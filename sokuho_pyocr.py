@@ -13,7 +13,7 @@ def print_ocr(img_path,tesseract_layout=3):
     tool = tools[0]
 
     txt = tool.image_to_string(
-    Image.open(img_path),
+        Image.open(img_path),
         lang='jpn',
         builder=pyocr.builders.TextBuilder(tesseract_layout=tesseract_layout)
     )
