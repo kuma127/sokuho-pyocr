@@ -106,3 +106,4 @@ venv.bak/
 # local
 memo.txt
 *.ipynb
+*.csv
