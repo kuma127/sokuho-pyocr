@@ -1,5 +1,5 @@
 pyocr==0.7.2
 Pillow>=6.2.0
 opencv-python==4.2.0.32
-numpy==1.17.4
+numpy==1.22.0
 mecab-python3==0.996.3
